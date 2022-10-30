@@ -109,7 +109,7 @@ const ContactUs = () => {
                 {submit && <>
                     <div className='emailSent'>
                         <h1 style={{ color: '#01a479' }}>Email Sent Successfully.</h1>
-                        <p>Thank you <span style={{ fontWeight: 'bold',color: "#c770f0" }}>{data.name}</span>, your message has been submitted to us.</p>
+                        <p style={{ color: '#fff' }}>Thank you <span style={{ fontWeight: 'bold',color: "#c770f0" }}>{data.name}</span>, your message has been submitted to us.</p>
                     </div>
                 </>}
                 <div className='contactForm'>
